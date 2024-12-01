@@ -24,23 +24,23 @@
 .nav .memu a:hover{
   color: blue;
 }
-.nav .btns button{
+.nav .btns #button{
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
   
   background-color: rgb(6, 6, 6);
 }
-.btns button a{
+.btns #button{
   text-decoration: none;
   color: white;   
 }
 
-.btns button:hover{
+.btns:hover{
   transform: scale(0.9);
   
 }
-button{
+#button{
   cursor: pointer;
   color: white;
   

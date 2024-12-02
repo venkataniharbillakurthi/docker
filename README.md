@@ -17,8 +17,13 @@ docker tag my-task-react-app venkataniharbillakurthi/my-task-react-app:latest
 
 # 3. Push the Image to Docker Hub
 Push the image to Docker Hub using:
-docker push yourusername/my-task-react-app:latest
+docker push venkataniharbillakurthi/my-task-react-app:latest
 # 5. Share the Image
 Share the image name with others. For example:
+venkataniharbillakurthi/my-task-react-app:latest
+# 6. Others can pull the image using:
+docker pull yourusername/my-task-react-app:latest
+
+
 
 

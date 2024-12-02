@@ -13,17 +13,17 @@ Run the following command in your terminal:
 docker login
 
 # 2. Tag Your Docker Image
-docker tag my-task-react-app venkataniharbillakurthi/my-task-react-app:latest
+docker tag my-task-react-app venkataniharbillakurthi/reactproject/my-task:latest
 
 # 3. Push the Image to Docker Hub
 Push the image to Docker Hub using:
-docker push venkataniharbillakurthi/my-task-react-app:latest
+docker push venkataniharbillakurthi/reactproject/my-task:latest
 # 5. Share the Image
 Share the image name with others. For example:
-venkataniharbillakurthi/my-task-react-app:latest
+venkataniharbillakurthi/reactproject/my-task:latest
 # 6. Others can pull the image using:
-docker pull yourusername/my-task-react-app:latest
+docker pull yourusername/reactproject/my-task:latest
 
-
+# http://localhost:8080/
 
 
